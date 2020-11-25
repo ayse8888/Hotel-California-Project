@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.picture{
+    background-image: url(img/forest.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+    padding: 8rem;
+}
+
+.header {
+    margin-top: 5rem;
+}
+
+.about-background, 
+.rates-background, 
+.season-background, 
+.contact-background {
+    background-color: #f7f1e3;
+    /* background-color: #faf3dd; */
+}
+
+.opening-background, 
+.visitors-background {
+    background-color: #ff793f;
+    /* background-color: #fab9b3; */
+}
+
+.opening {
+    background-color: #f7a37f;
+    /* background-color: #fcd4d0; */
+}
+
+.activities {
+    padding: 0 8rem 0 8rem;
+    background-color: #ff793f;
+    /* background-color: #fab9b3; */
+}
+
+.activities a, 
+.visitors-background a {
+    color: #1a1919;
+}
+
+.activities-image {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.activities-image:hover {
+    opacity: 0.8;
+}
+
+.rates {
+    padding: 0 10rem 0 10rem;
+}
+
+.rate-border {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50px; 
+    margin: auto;
+    padding: 2rem;
+}
+
+#date, #dates, #send, 
+#name, #email, #tel {
+    width: 160px;
+    height: auto;
+}
+
+.fa-2x {
+    cursor: pointer;
+}
+
+form label input {
+    border-radius: 4px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    div.picture {
+      font-size: 10px;
+    }
+
+    div.activities {
+        padding: 4rem;
+    }
+
+    .rate-border {
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        padding: 1rem 0 2rem 0;
+    }
+
+}
+
+
+
+
